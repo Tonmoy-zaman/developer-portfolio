@@ -17,7 +17,9 @@
     background: #FD6E0A;
     border-radius: 5px;
 }
-
+section{
+    margin-top: 130px;
+}
 /* header and nav styles */
 .header {
     background: #FFF8F3;
@@ -81,7 +83,7 @@ main {
 /* about section */
 
 .about {
-    margin-top: 130px;
+   
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -91,9 +93,10 @@ main {
 
 .section-title {
 
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
+    text-align: center;
 }
 
 .section-des {
@@ -103,9 +106,9 @@ main {
 }
 
 .about-info-container {
-    display: flex ;
+    display: flex;
     justify-content: space-around;
-    
+
 }
 
 .about .info-title {
@@ -118,3 +121,28 @@ main {
     font-size: 20px;
     font-weight: 700;
 }
+
+/* what i do */
+
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+}
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px ;
+    margin-bottom: 20px;
+}
+.skill-des{
+    color: #757575;
+    font-size: 16px;
+}
+/* resume */
